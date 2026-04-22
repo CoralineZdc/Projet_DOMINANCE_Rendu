@@ -1,0 +1,39 @@
+======================================================================
+VAD-NET MODEL EVALUATION REPORT
+======================================================================
+
+Model: C:\Users\NUMVI\Downloads\Projet-DOMINANCE\VAD-Net\runs\Emotic-Preprocessed_ResNet50\best_model.pth
+CUDA: True
+Cut Size: 48, Input Size: 48
+
+======================================================================
+RMSE RESULTS
+======================================================================
+
+Public Test Set:
+  Valence    : 1.1463
+  Arousal    : 1.0162
+  Dominance  : 1.0329
+  Overall    : 1.0667
+
+Private Test Set:
+  Valence    : 1.3043
+  Arousal    : 1.3097
+  Dominance  : 1.4019
+  Overall    : 1.3394
+
+======================================================================
+CCC RESULTS
+======================================================================
+
+Public Test Set:
+  Valence    : -0.0074
+  Arousal    : -0.0167
+  Dominance  : -0.0003
+  Overall    : -0.0081
+
+Private Test Set:
+  Valence    : -0.0085
+  Arousal    : -0.0018
+  Dominance  : -0.0016
+  Overall    : -0.0040

@@ -8,11 +8,6 @@ __pycache__/
 .pytest_cache/
 
 # Generated outputs and experiment artifacts
-logs/
-plots/
-runs/
-evaluations/
-evaluations_test/
 .vscode/
 data/emotic_kaggle/img_arrs/
 data/*

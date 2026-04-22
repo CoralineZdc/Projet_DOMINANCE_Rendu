@@ -1,0 +1,8 @@
+[2026-04-17 10:35:34] Starting full preparation pipeline
+[2026-04-17 10:35:34] Data directory: C:\Users\NUMVI\Downloads\Projet-DOMINANCE\VAD-Net\data
+[2026-04-17 10:35:34] Seed: 42
+[2026-04-17 10:35:37] [CAER-S] DRY-RUN: would write 40824 train, 4536 val, 6300 test rows.
+[2026-04-17 10:35:37] [Emotic/HeCo] DRY-RUN: would run preprocess_emotic_split for train/val/test.
+[2026-04-17 10:35:37] [Emotic/HeCo] DRY-RUN: would run preprocess_heco_all and create train/val/test HECO preprocessed CSVs.
+[2026-04-17 10:35:37] [Merged] DRY-RUN: would write data\train-merged-vad-caers.csv and data\train-merged-vad-caers-emotic.csv
+[2026-04-17 10:35:37] Preparation pipeline completed

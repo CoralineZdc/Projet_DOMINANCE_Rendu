@@ -1,0 +1,39 @@
+======================================================================
+VAD-NET MODEL EVALUATION REPORT
+======================================================================
+
+Model: C:\Users\NUMVI\Downloads\Projet-DOMINANCE\VAD-Net\runs\Caer-S-Preprocessed_EfficientNet\best_model.pth
+CUDA: True
+Cut Size: 48, Input Size: 48
+
+======================================================================
+RMSE RESULTS
+======================================================================
+
+Public Test Set:
+  Valence    : 1.4145
+  Arousal    : 1.1696
+  Dominance  : 1.0643
+  Overall    : 1.2249
+
+Private Test Set:
+  Valence    : 1.5892
+  Arousal    : 1.4107
+  Dominance  : 1.6195
+  Overall    : 1.5426
+
+======================================================================
+CCC RESULTS
+======================================================================
+
+Public Test Set:
+  Valence    : 0.0362
+  Arousal    : 0.0042
+  Dominance  : -0.0079
+  Overall    : 0.0109
+
+Private Test Set:
+  Valence    : -0.0239
+  Arousal    : -0.0270
+  Dominance  : 0.0085
+  Overall    : -0.0141
