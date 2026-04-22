@@ -1,0 +1,19 @@
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Local development environment
+.venv/
+.idea/
+.pytest_cache/
+
+# Generated outputs and experiment artifacts
+logs/
+plots/
+runs/
+evaluations/
+evaluations_test/
+.vscode/
+data/emotic_kaggle/img_arrs/
+data/*
+!data/*.csv
