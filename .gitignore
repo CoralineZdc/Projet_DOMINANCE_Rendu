@@ -9,6 +9,3 @@ __pycache__/
 
 # Generated outputs and experiment artifacts
 .vscode/
-data/emotic_kaggle/img_arrs/
-data/*
-!data/*.csv
